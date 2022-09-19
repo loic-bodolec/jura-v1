@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.wordWrapColumn": 140,
+  "editor.rulers": [140],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.renderWhitespace": "all",
+  "html.format.wrapLineLength": 140,
+  "liveServer.settings.port": 5501
+}

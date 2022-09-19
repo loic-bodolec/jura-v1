@@ -1,0 +1,21 @@
+{
+  "name": "Jura - gestionnaire de tickets",
+  "short_name": "Jura",
+  "scope": ".",
+  "start_url": ".",
+  "icons": [
+    {
+      "src": "/logo-jura.png?v=NmbWaqEWWA",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo-jura.png?v=NmbWaqEWWA",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

@@ -1,0 +1,13 @@
+.footer-container {
+  background-color: $bg-light;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  padding: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+.footer-link {
+  font-size: 0.75rem;
+  text-decoration: none;
+}

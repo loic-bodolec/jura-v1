@@ -1,0 +1,43 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb", "airbnb-typescript", "plugin:@typescript-eslint/recommended", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": "./tsconfig.json",
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "rules": {
+    "import/prefer-default-export": 0,
+    "arrow-body-style": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/no-unescaped-entities": 0,
+    "comma-dangle": ["error", "never"],
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "no-nested-ternary": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-return-assign": 0,
+    "no-useless-escape": 0,
+    "prefer-promise-reject-errors": 0,
+    "consistent-return": 0,
+    "react/no-array-index-key": 0,
+    "react/prop-types": 0,
+    "react/require-default-props": 0,
+    "import/newline-after-import": 0,
+    "@typescript-eslint/no-empty-interface": 0,
+    "default-case": 0,
+    "import/no-cycle": 0
+  },
+  "ignorePatterns": [".eslintrc.json", "coverage", ".github", ".husky", "README"]
+}

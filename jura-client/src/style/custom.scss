@@ -1,0 +1,12 @@
+$primary: #2e4acd;
+$success: #34a47a;
+$danger: #fc3637;
+$warning: #fb8930;
+$bg-white: #f9f9f9;
+$bg-light: #e5e5e5;
+$card-bg: #ebebeb;
+
+$font-family-sans-serif: Montserrat, sans-serif;
+
+// make sure this import stay at the bottom of this file
+@import '~bootstrap/scss/bootstrap';

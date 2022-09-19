@@ -1,0 +1,41 @@
+.top-navbar {
+  background-color: $bg-light;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+// @media (min-width: 768px) {
+//   .top-navbar {
+//     height: $header-lg-height;
+//   }
+// }
+
+.logo-jura {
+  width: 3rem;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 1.25rem;
+  font-size: 2rem;
+}
+
+.header-title {
+  background-color: $bg-light;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.top-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.25rem;
+  font-size: 2rem;
+}

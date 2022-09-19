@@ -1,0 +1,37 @@
+.ticket-card,
+.comments-thread {
+  max-width: 40rem;
+}
+
+.comments-list {
+  overflow-y: scroll;
+  max-height: 60vh;
+  }
+
+.comment-card-container-others {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comment-card-container-mine {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comment-user-circle {
+  size: 5rem;
+  align-items: center;
+  background-color: #34a47a;
+  border-radius: 50%;
+  display: flex;
+  width: 2.25rem;
+  min-width: 1.5rem;
+  height: 2.25rem;
+  justify-content: center;
+}
+
+.comment-user-initials {
+  font-weight: bold;
+  font-size: '1rem';
+}
+

@@ -1,0 +1,110 @@
+.sidebar-nav {
+  background-color: $bg-light;
+  height: $sideBar-height;
+  width: $sideBar-sm-width;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 20px;
+  top: 100;
+  left: -100%;
+  transition: 1000ms;
+  z-index: 1000;
+}
+
+.sidebar-projects-list {
+  overflow-y: scroll;
+  max-height: 50vh;
+}
+
+
+@media (min-width: 768px) {
+  .sidebar-nav {
+    // width: min-content;
+    width: 15rem;
+  }
+}
+
+// @media (max-width: 900px) {
+//   .sidebar-nav {
+//     width: 50%;
+//     display: block;
+//   }
+// }
+
+.sidebar-nav.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.project-menu-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 0.5rem;
+  height: 3.75rem;
+  font-size: 1.125rem;
+
+  &:hover {
+    background-color: $bg-white;
+    border-radius: 1rem;
+    border-left: 4px solid $primary;
+    margin: 0.25rem;
+    padding-left: 0.5rem;
+    opacity: 60%;
+  }
+}
+
+.project-name {
+  margin-left: 0.5rem;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.project-list-button {
+  margin: 2rem 0rem 3rem 1rem;
+  border-radius: 15px;
+}
+
+.sidebar-nav-item {
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: left;
+}
+
+.buttonCreate {
+  bottom: 3%;
+  position: absolute;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 3rem;
+  font-size: 1.125rem;
+  border-left: 4px solid transparent;
+  border-radius: 4px;
+  margin: 0.2rem;
+  padding-left: 0.5rem;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $bg-white;
+    border-left: 4px solid $primary;
+    opacity: 60%;
+  }
+}
+
+.sidebar-icon {
+  font-size: 1.75rem;
+  margin-right: 0.75rem;
+}
+
+.add-icon {
+  color: $bg-white !important;
+  font-size: 1.75rem;
+}

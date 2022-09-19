@@ -1,0 +1,9 @@
+src/serviceWorker.ts
+node_modules/
+public/
+build/
+coverage/
+.husky
+playwright/*
+tests-examples/*
+playwright.config.ts

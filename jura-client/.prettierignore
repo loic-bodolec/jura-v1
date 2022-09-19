@@ -1,0 +1,7 @@
+src/serviceWorker.ts
+node_modules/
+public/
+build/
+coverage/
+.husky
+src/services/api/generated

@@ -1,0 +1,75 @@
+{
+  "name": "jura-server",
+  "version": "1.0.0",
+  "description": "team project WCS",
+  "main": "index.js",
+  "author": "loicbdev, nicholas570 and Francois2344",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest --runInBand --coverage",
+    "test:watch": "npm run test -- --watchAll",
+    "test:ci": "npm run test -- --clearCache --ci --watchAll=false",
+    "start:dev": "nodemon",
+    "start": "npm run build && node build/index.js",
+    "build": "rimraf ./build && tsc",
+    "lint": "eslint . --ext .ts --fix",
+    "prettier": "prettier --config .prettierrc \"src/**/*.ts\" --write",
+    "precommit": "lint-staged",
+    "typeorm:cli": "ts-node ./node_modules/typeorm/cli"
+  },
+  "lint-staged": {
+    "src/**/*.ts*": [
+      "npm run lint",
+      "npm run prettier"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "argon2": "^0.28.5",
+    "better-sqlite3": "^7.4.5",
+    "class-validator": "^0.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.8.0",
+    "graphql-depth-limit": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "password-validator": "^5.3.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.39",
+    "typeorm-encrypted": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.4.1",
+    "@types/cors": "^2.8.12",
+    "@types/graphql-depth-limit": "^1.1.3",
+    "@types/jest": "^27.0.3",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^16.9.3",
+    "@types/validator": "^13.7.5",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.2",
+    "jest": "^27.3.1",
+    "lint-staged": "^11.1.2",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.2.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  }
+}
