@@ -9,33 +9,33 @@
 - argon2
 - mysql
 
-1- Créer la base de données dans MYSQL
+1- Create the database in MYSQL
 
 CREATE SCHEMA jura ;
 
-2- Commande pour générer une migration :
+2- Command to generate a migration :
 
-(après avoir créer le script suivant dans le package.json : "typeorm:cli": "ts-node ./node_modules/typeorm/cli")
+(after creating the following script in the package.json : "typeorm:cli": "ts-node ./node_modules/typeorm/cli")
 
 ```sh
 npm run typeorm:cli -- migration:generate -n <migration-name>
 ```
 
-(ex : "npm run typeorm:cli -- migration:generate -n InitDataBase" => création de la migration nommée InitDataBase)
+(ex : "npm run typeorm:cli -- migration:generate -n InitDataBase" => creation of the migration named InitDataBase)
 
-3- Commande pour lancer la migration :
+3- Command to start the migration :
 
 ```sh
 npm run typeorm:cli -- migration:run
 ```
 
-=> Le MPD de la base de données créée sera le suivant :
+=> The PDM of the database created will be as follows :
 
 ![physical data model](https://imgur.com/3iaLT6i.png)
 
-4- Lancement du serveur :
+4- Server launch :
 
-(nb: En amont, il faut configurer le fichier ".env".)
+(nb: Before, you must configure the ".env" file.)
 
 ```sh
 npm run start:dev
@@ -47,20 +47,20 @@ npm run start:dev
 docker-compose -f docker-compose.dev.yml up --build
 ```
 
-Dans un autre terminal :
+In another terminal :
 
 ```sh
-docker ps (pour lister les containers en marche)
+docker ps (to list the running containers)
 
 ```
 
-puis copier l'id du container "server"
+then copy the container id "server"
 
 ```sh
-docker exec -it (id du container)
+docker exec -it (container id)
 ```
 
-=> ouvre "/app #" (commande pour entrer dans le container)
+=> open "/app #" (command to enter the container)
 
 ```sh
 npm run typeorm:cli -- migration:run
