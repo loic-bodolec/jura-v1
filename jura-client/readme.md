@@ -19,12 +19,6 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-
-### About The Project
-
-TODO
-
 ### Built With
 
 - [React](https://reactjs.org/)
