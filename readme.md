@@ -24,7 +24,7 @@ All CRUD operations are performed securely (authorization of requests with JWT).
   
 (For all the project, TypeScript is used.)
 
-- Data : SQL
+- Data : SQL (MySQL)
   
 - Containerization : Docker
   

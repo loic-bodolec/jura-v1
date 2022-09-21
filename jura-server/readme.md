@@ -38,6 +38,10 @@ npm run typeorm:cli -- migration:run
 (nb: Before, you must configure the ".env" file.)
 
 ```sh
+npm install
+```
+
+```sh
 npm run start:dev
 ```
 
