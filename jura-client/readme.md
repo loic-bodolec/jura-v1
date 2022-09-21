@@ -84,7 +84,7 @@ FAST_REFRESH=false
 
 (nb : "On Your Network: <http://172.17.0.2:3000>")
 
-## Run jest tests
+## Run Jest tests
 
 ### run the tests
 
@@ -131,3 +131,7 @@ npm run playwright
 ```sh
 npx playwright show-report
 ```
+
+## API GraphQL schema (Documentation)
+
+You can access to the Schema with [Apollo Studio](https://studio.apollographql.com/).
