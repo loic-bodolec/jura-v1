@@ -131,7 +131,3 @@ npm run playwright
 ```sh
 npx playwright show-report
 ```
-
-## API GraphQL schema (Documentation)
-
-You can access to the Schema with [Apollo Studio](https://studio.apollographql.com/).
