@@ -42,8 +42,8 @@ All CRUD operations are performed securely (authorization of requests with JWT).
 
 ### Install Server
 
-=> see the readme in the "jura-server" folder
+=> see the [readme in the "jura-server"](https://github.com/loic-bodolec/jura-v1/blob/main/jura-server/readme.md) folder
 
 ### Install Client
 
-=> see the readme in the "jura-client" folder
+=> see the [readme in the "jura-client"](https://github.com/loic-bodolec/jura-v1/blob/main/jura-client/readme.md) folder
