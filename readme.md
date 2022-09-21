@@ -30,9 +30,9 @@ All CRUD operations are performed securely (authorization of requests with JWT).
   
 - Testing : Jest / Playwright
 
-## Global schema
+## Global application architecture
 
-![global schema](https://imgur.com/ZEs02sA.png)
+![global architecture](https://imgur.com/ZEs02sA.png)
 
 ## Physical Data Model of the created database
 
@@ -40,10 +40,16 @@ All CRUD operations are performed securely (authorization of requests with JWT).
 
 ![physical data model](https://imgur.com/3iaLT6i.png)
 
-### Install Server
+## Install Server
 
 => see the [readme in the "jura-server"](https://github.com/loic-bodolec/jura-v1/blob/main/jura-server/readme.md) folder
 
-### Install Client
+## Install Client
 
 => see the [readme in the "jura-client"](https://github.com/loic-bodolec/jura-v1/blob/main/jura-client/readme.md) folder
+
+## API GraphQL Schema ***(data types, queries, mutations...)***
+
+You can access to the schema with [Apollo Studio](https://studio.apollographql.com/).
+
+The GraphQL server uses a schema to describe the shape of your available data. This schema defines a hierarchy of types with fields that are populated from your back-end data stores. The schema also specifies exactly which queries and mutations are available for clients to execute.
