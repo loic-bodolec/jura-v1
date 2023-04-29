@@ -17,6 +17,11 @@ Each user can access his profile and modify it. An account can be deleted by the
 All CRUD operations are performed securely (authorization of requests with JWT). => still in progress
 
 <p width="100%" align="center">
+  <img width="49%" src="https://imgur.com/V98VXg0.png">
+  <img width="49%" src="https://imgur.com/Fb63V90.png">
+</p>
+
+<p width="100%" align="center">
   <img width="49%" src="https://imgur.com/OJ5KPT4.png">
   <img width="49%" src="https://imgur.com/4Azwkjf.png">
 </p>
