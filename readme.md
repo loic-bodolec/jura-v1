@@ -19,6 +19,8 @@ All CRUD operations are performed securely (authorization of requests with JWT).
 ![screenshot](https://imgur.com/YKLSYLj.png)
 ![screenshot](https://imgur.com/ndeE8Ml.png)
 
+<img src="https://imgur.com/a/aBlU5K1.png"  width="600" height="300">
+
 ## Technical stack
 
 - Front-end : React / GraphQL / Apollo-Client / react-router / react-bootstrap
