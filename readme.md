@@ -19,7 +19,7 @@ All CRUD operations are performed securely (authorization of requests with JWT).
 ![screenshot](https://imgur.com/YKLSYLj.png)
 ![screenshot](https://imgur.com/ndeE8Ml.png)
 
-<img src="https://imgur.com/a/aBlU5K1.png"  width="600" height="300">
+<img src="https://github.com/loic-bodolec/jura-v1/blob/main/screenshots-jura/jura-1.png"  width="600" height="300">
 
 ## Technical stack
 
