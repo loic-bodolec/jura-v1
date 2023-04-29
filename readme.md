@@ -17,9 +17,8 @@ Each user can access his profile and modify it. An account can be deleted by the
 All CRUD operations are performed securely (authorization of requests with JWT). => still in progress
 
 <p width="100%"> align="center">
-  <img width="31%" src="https://github.com/loic-bodolec/jura-v1/blob/main/screenshots-jura/jura-1.png">
-  <img width="31%" src="https://github.com/loic-bodolec/jura-v1/blob/main/screenshots-jura/jura-2.png">
-  <img width="31%" src="https://github.com/loic-bodolec/jura-v1/blob/main/screenshots-jura/jura-3.png">
+  <img width="50%" src="https://github.com/loic-bodolec/jura-v1/blob/main/screenshots-jura/jura-1.png">
+  <img width="50%" src="https://github.com/loic-bodolec/jura-v1/blob/main/screenshots-jura/jura-3.png">
 </p>
 
 ## Technical stack
