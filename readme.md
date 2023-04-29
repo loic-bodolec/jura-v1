@@ -56,4 +56,4 @@ The GraphQL server uses a schema to describe the shape of your available data. T
 
 ## Illustrations
 
-=> see the [screenshots"](https://github.com/loic-bodolec/jura-v1/tree/main/screenshots-jura) folder
+=> see the [screenshots](https://github.com/loic-bodolec/jura-v1/tree/main/screenshots-jura) folder
