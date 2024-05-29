@@ -40,7 +40,7 @@
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
     "password-validator": "^5.3.0",
-    "reflect-metadata": "^0.1.13",
+    "reflect-metadata": "^0.2.2",
     "type-graphql": "^1.1.1",
     "typeorm": "^0.2.39",
     "typeorm-encrypted": "^0.6.0"
