@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "apollo-server": "^3.6.7",
-    "argon2": "^0.28.5",
+    "argon2": "^0.40.1",
     "better-sqlite3": "^7.4.5",
     "class-validator": "^0.13.2",
     "cors": "^2.8.5",
