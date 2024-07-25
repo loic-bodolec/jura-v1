@@ -1,5 +1,5 @@
 # Dockerfile (client)
-FROM node:lts-alpine
+FROM node:20.15.1-alpine3.20
 
 RUN mkdir /app
 WORKDIR /app
